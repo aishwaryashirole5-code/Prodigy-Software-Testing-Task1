@@ -1,0 +1,149 @@
+﻿# Simple Calculator Application Test Cases
+
+
+## Test Case 1
+Test Case ID: TC_01
+Test Description: Verify addition of two positive numbers
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 5
+2. Click +
+3. Enter 3
+4. Click =
+
+
+Expected Result:
+Result should display 8
+
+
+
+
+## Test Case 2
+Test Case ID: TC_02
+Test Description: Verify subtraction operation
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 10
+2. Click -
+3. Enter 4
+4. Click =
+
+
+Expected Result:
+Result should display 6
+
+
+
+
+## Test Case 3
+Test Case ID: TC_03
+Test Description: Verify multiplication operation
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 6
+2. Click ×
+3. Enter 5
+4. Click =
+
+
+Expected Result:
+Result should display 30
+
+
+
+
+## Test Case 4
+Test Case ID: TC_04
+Test Description: Verify division operation
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 20
+2. Click ÷
+3. Enter 4
+4. Click =
+
+
+Expected Result:
+Result should display 5
+
+
+
+
+## Test Case 5
+Test Case ID: TC_05
+Test Description: Verify addition of decimal numbers
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 2.5
+2. Click +
+3. Enter 1.5
+4. Click =
+
+
+Expected Result:
+Result should display 4.0
+
+
+
+
+## Test Case 6
+Test Case ID: TC_06
+Test Description: Verify negative number addition
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter -5
+2. Click +
+3. Enter -3
+4. Click =
+
+
+Expected Result:
+Result should display -8
+
+
+
+
+## Test Case 7
+Test Case ID: TC_07
+Test Description: Verify division by zero
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 5
+2. Click ÷
+3. Enter 0
+4. Click =
+
+
+Expected Result:
+Calculator should display Error message
+
+
+
+
+## Test Case 8
+Test Case ID: TC_08
+Test Description: Verify BODMAS rule with multiple operations
+Preconditions: Calculator application is open
+
+
+Test Steps:
+1. Enter 5 + 3 × 2
+2. Click =
+
+
+Expected Result:
+Result should follow BODMAS rule
